@@ -1,24 +1,16 @@
 import './App.css'
+import ActivePage from './Pages/ActivePage'
 
 function App() {
 
   return (
-    <>
-      <div className='bg-red-500 flex flex-row'>
-        <div className='flex flex-col'>
-          <div>
-            History
-          </div>
-          <div>
-
-          </div>
-        </div>
-
+      <div className='flex flex-row w-screen h-screen justify-center'>
         <div>
-          
+          <div>
+            <ActivePage />
+          </div>
         </div>
       </div>
-    </>
   )
 }
 
